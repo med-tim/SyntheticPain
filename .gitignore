@@ -1,0 +1,10 @@
+# macOS and Python clutter
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Never commit patient-level files
+paired_predictions*.csv
+*.xlsx
+fairness_output/
